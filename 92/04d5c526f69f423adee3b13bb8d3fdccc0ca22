@@ -1,0 +1,25 @@
+src/git/refs.rs
+  56df1d3e82e9d206 29,245,338
+src/authorship/git_ai_hooks.rs
+  56df1d3e82e9d206 29,111,113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.9",
+  "base_commit_sha": "9204d5c526f69f423adee3b13bb8d3fdccc0ca22",
+  "prompts": {
+    "56df1d3e82e9d206": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bb0f5440-7ba7-496f-a3c7-3dbcd34f6e7f",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 8,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    }
+  }
+}
