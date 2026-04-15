@@ -1,0 +1,29 @@
+install-local.ps1
+  b5ffcfb7953f5494 1-297
+src/main.rs
+  b5ffcfb7953f5494 47-49
+.github/workflows/release.yml
+  b5ffcfb7953f5494 249-310,313,354,482
+install-local.sh
+  b5ffcfb7953f5494 1-208
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "ef6737f1ece2f8409f23230f2354aa378cdcb3a3",
+  "prompts": {
+    "b5ffcfb7953f5494": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e1a8fd06-c3e8-4c11-bbf1-2afe69b1a692",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 586,
+      "total_deletions": 15,
+      "accepted_lines": 573,
+      "overriden_lines": 0
+    }
+  }
+}
