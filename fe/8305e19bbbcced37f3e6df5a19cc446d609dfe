@@ -1,0 +1,23 @@
+src/commands/tracker/log.rs
+  8a008dc055198d72 38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "fe8305e19bbbcced37f3e6df5a19cc446d609dfe",
+  "prompts": {
+    "8a008dc055198d72": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-78782402-1f79-4f57-bc9c-f1c5632a61bd",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
