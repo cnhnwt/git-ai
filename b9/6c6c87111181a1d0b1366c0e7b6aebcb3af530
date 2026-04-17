@@ -1,0 +1,1269 @@
+src/commands/tracker/filter.rs
+  5f4fd55b07609917 9,15
+  2095a80212d0d7e1 7-8,10-12,17,21,25,29,37,41
+  c89c761f9be14487 44,47
+src/commands/tracker/mod.rs
+  dfe588888365d192 108,110,121,123-125
+  85dc0635abc365a4 4
+  a52c9f249753d71e 94-107
+  651c799e604bc7e5 24,36-38
+  fdc3f7b9d6ee556f 39-46
+  4e2f9a44f2c6cdf9 68-75,79-86
+  c70fa71ddb268666 25,28
+src/commands/git_handlers.rs
+  eddc121e970816f8 202-207
+src/commands/tracker/retry.rs
+  b71e5928d9b328fa 89-96
+docs/tracker-测试用例.md
+  299e175866a8eaab 3
+  0314369815436e6a 464-586
+  2a9ff29d4e9485d3 190,194-197,199-201,207-210,212-215
+  3e753f57c9b12077 267,275
+  26f716d6947590f0 597-598,602-605,607-608,617-625
+  620f932c4fe3e9bb 1-2,4-12,15-189,191-193,198,202-206,211,216-266,268-274,276-292,294-463,587-596,599-601,606,609-616
+  10e20b46c3c7e126 13-14
+  5edf79890b9c6897 293
+src/commands/git_ai_handlers.rs
+  b354fdbef0255400 308-310,313,316-320,329-331,334,337-341
+  5655f1ac8fb17077 311,332
+  d171ce1ae0e7f1ed 2427,2429,2431-2435,2438
+  3c6f9b115f8c7aad 2428,2430,2436-2437
+  7e2a60e0dd47327b 312,314-315,321,333,335-336,342
+  b8a065be5cd485da 250-276,278-307,322-328,343-356
+docs/tracker-功能说明书.md
+  c058cf28dde18bc4 33-35
+  baf18154194eee63 1-2,5-7,9,11,16-18,20-21,36-39,77,79,81,83,85,88,90,93,95,97,107,109,111,116,118,122,124,126,128,130,142,145,148,150-151,153-154,156-158,160,162,164,172-173,180,182,184,186,194,198,200,202,204-205,207-208,263-264,266,268,274,276-282,284,286,288,290,292-294
+  cb121811d678a74e 300-301,304
+  10a8489df557db54 4,8,10,12-15,19,22-32,40-76,78,80,82,84,86-87,89,91-92,94,96,98-106,108,110,112-115,117,123,125,127,129,131-141,143-144,146-147,149,155,159,161,163,165-171,174-178,181,183,185,187-193,195-197,199,201,203,209-212,265,267,269-273,275,283,285,287,289,291,295-299,302-303
+  e01b8bba819182e5 3
+  ab0474b7870de783 119-121
+  56b35ad5a42a0bb1 179
+  dc3865ef8f0009b1 206,213-261
+  616fe42a13b524e4 262
+  8038c8bc2cb025f2 152
+src/commands/tracker/config.rs
+  76e4cdaa8247dcda 1,5,27-62
+src/commands/tracker/log.rs
+  e3b5aa45996ff488 21-40
+  02986e1c01021c1f 63,73
+  bd42e733c584c5e9 108
+  eb51bdd864790072 156-157
+  aa9e2678ee4245e9 1-20,41-62,64-72,74-94,96-101,103-107,109-116,124,168,171
+  84aeb6fc11dc2d39 95,102,117-123,125-155,158-167,169-170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "b96c6c87111181a1d0b1366c0e7b6aebcb3af530",
+  "prompts": {
+    "02986e1c01021c1f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-ab844c8e-e1e5-41d2-946f-fc12d605cea6",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "0314369815436e6a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-171c5ec4-2855-4c67-bdef-65dadffd5453",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 123,
+      "total_deletions": 0,
+      "accepted_lines": 123,
+      "overriden_lines": 0
+    },
+    "0de140c0a60db19e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-2af8cc4b-83d6-42d9-b99f-1123aba44c23",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    },
+    "0fad22bf5a6b899d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b4ee8b0ffexgMCKtub0f2KOq-f4853949-bed0-4014-81b7-d08c747ab33e",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "10a8489df557db54": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_269ef444cffecfrtd7ZddYxYBW-3035c361-e841-4393-b0a1-5ea896cbd7d1",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 159,
+      "overriden_lines": 0
+    },
+    "10e20b46c3c7e126": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-34df3940-cafb-4b09-8a43-c55a13b5c952",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 1,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "1321cc7964187b6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-c081e6ab-9d3a-4cc0-8e21-3522b8b08428",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "15ffd0c86ef7a7c9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_269ef444cffecfrtd7ZddYxYBW-07659205-634c-4c9f-b188-985d6c6b1830",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "1cb852394c56c677": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b4ee8b0ffexgMCKtub0f2KOq-0f78bc6d-7e3e-454c-b425-fa63b9b30ae8",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    },
+    "2095a80212d0d7e1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-13135e98-cf11-4626-a35d-ad7bd80f56d0",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 7,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    },
+    "23473cbd885af8c1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-05ee8c25-7367-4e88-9a47-40d3dd599f8a",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 38,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "26f716d6947590f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-318a66d0-4568-4253-a57b-a70a3c8600b1",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 17,
+      "total_deletions": 8,
+      "accepted_lines": 17,
+      "overriden_lines": 0
+    },
+    "28c1aae9302899c8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-4078e1cd-7d47-4dfb-a734-d18065305069",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "299e175866a8eaab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-e64a1895-9619-464b-9042-4de0729b3ae9",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "2a9ff29d4e9485d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-18d233d9-e4c9-4f6a-8b4c-5269cddb4327",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 7,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "3400e4562b9d1c4a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-7781bb4b-d2f5-4075-8de8-f0ade618fb09",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "3bb9222879bf9b7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-d4ad5537-d43e-48c1-810c-b9250c616087",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "3c6f9b115f8c7aad": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-2a1d45db-7ae8-48fc-a19e-09ab5b44fda1",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "3e753f57c9b12077": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-81513a6c-9a76-4171-bc24-30fe67757990",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 1,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "3fdd3b624c64ded0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-a1b862e0-8036-45a1-8ea0-b341816a4938",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 44,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "44b3f363a08b8753": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-96a6b63a-4cd3-48d3-ba3d-bf79c58dae69",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    },
+    "4e2f9a44f2c6cdf9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-31c164a6-0383-4ae8-97e2-167ad6e07ccf",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 29,
+      "total_deletions": 2,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "5655f1ac8fb17077": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-866df759-24ee-439f-9116-aeaf778309c7",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "56b35ad5a42a0bb1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-2b0fda17-cf54-49de-bc76-ffd2196fee4b",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "56b5542273babaca": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-9b1642b4-b566-4e05-8132-c699ca7a676e",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "5c39a45f371b2418": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a92290dffe1hf70K9m1SGYWQ-043bb030-33d0-40af-a3d0-24a6fbc7e248",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 510,
+      "overriden_lines": 0
+    },
+    "5cdc96087465e011": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-b1264853-9b3e-4e2f-b8d9-a624c5427da7",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "5e8947ad000b33f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-8279c2cb-9b0e-45bd-8583-7661de11fcaf",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "5edf79890b9c6897": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-2ddc04d7-1eb1-4e8b-b19f-057df1d273d9",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "5f4fd55b07609917": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-9dc6a85b-c982-4274-8484-855eccb0ae92",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 1,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "616fe42a13b524e4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-2aa351c3-0be5-4778-8be3-ee21e800305c",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "620f932c4fe3e9bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_269ef444cffecfrtd7ZddYxYBW-42fdddf1-dc64-4ded-a900-17c82c8cd259",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 463,
+      "overriden_lines": 0
+    },
+    "651c799e604bc7e5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-6721b64c-1acb-4f07-8898-7ae0a0e6e21f",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 1,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "7116f49d7ba7b17a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-22e816ff-13c1-4fdc-88ff-4705058d3137",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "76e4cdaa8247dcda": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-9763422d-db72-4330-8aaa-9a760b396a46",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 39,
+      "total_deletions": 2,
+      "accepted_lines": 39,
+      "overriden_lines": 0
+    },
+    "7816af4351785d03": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-ba23c4a4-0c7a-4a02-828e-228507b0eea5",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "7e2a60e0dd47327b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-6f4490cc-36d5-436d-bf4b-96742cc3e687",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 8,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    },
+    "8038c8bc2cb025f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-3b339144-8461-4440-8b66-7ba21aeb75c3",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "84aeb6fc11dc2d39": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-4bc5a218-9be1-4643-898d-3436be3b6307",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 58,
+      "total_deletions": 2,
+      "accepted_lines": 52,
+      "overriden_lines": 0
+    },
+    "857ea55eafd7356c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-90fb22bc-0bae-48b7-83ea-4eca6423904f",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "85dc0635abc365a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-257161e8-f5d1-4d2a-8dc1-a9304e65aede",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "87dec029d368de5e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-e8ddbb8f-d707-4378-b2e7-f7265992b2e4",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "891ec7f3bd72c3e0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b4ee8b0ffexgMCKtub0f2KOq-00415143-5ee2-48b0-8090-0f477b74cc0c",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "89d3359980a6a1f8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a92290dffe1hf70K9m1SGYWQ-184a015d-0095-415f-91fa-ab8dc9273527",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    },
+    "8a88d8635f9dde6b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-fcbed38f-e6f1-4f35-8af6-5f928105a13b",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "8d006be7a4034b7a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-c3cd063b-7859-4da3-87f3-23b41cec4eeb",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "942e4395f17c5eaf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a92290dffe1hf70K9m1SGYWQ-aeb259be-b263-4c17-8922-83fa03b5f60a",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    },
+    "998c94ec2e99db78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-e9f41dcf-36ba-4166-8af8-f275ee1dddca",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 38,
+      "overriden_lines": 0
+    },
+    "9f7c87c5d39431d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b5dbac5ffek9nS7E6wp2jU15-53f004df-1c83-4097-adb9-5f64d5769e7d",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "a3a17c8ac7314cd4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-c6bc84a1-d312-487b-b4aa-97d8342c3506",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 23,
+      "overriden_lines": 0
+    },
+    "a3dad7a288661a34": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-e152c09b-db6e-470f-b143-501395e71da0",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "a52c9f249753d71e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-43d9689a-8423-48d6-9b7d-71ae0504fbe9",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 0,
+      "accepted_lines": 14,
+      "overriden_lines": 0
+    },
+    "aa9e2678ee4245e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-c90786d7-9402-41b8-aef1-d59719be5b01",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 99,
+      "total_deletions": 0,
+      "accepted_lines": 94,
+      "overriden_lines": 0
+    },
+    "aaa0521771b18c7d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a92290dffe1hf70K9m1SGYWQ-19687ad8-2f94-4ceb-8c2f-549b3d8b298c",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "aaeabf909fa5960d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-8b6abdd8-f393-4bcc-8c06-92d3f869ca64",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    },
+    "ab03904f9ac20c63": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-75c0db40-2951-448a-b40e-4d901fc62166",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "ab0474b7870de783": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-4c23f9f1-e45d-439a-aef6-f390f60afd3e",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 2,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    },
+    "b354fdbef0255400": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-d7a898c8-ea31-42f4-b285-ed1c4d1ca180",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 28,
+      "total_deletions": 12,
+      "accepted_lines": 18,
+      "overriden_lines": 0
+    },
+    "b71e5928d9b328fa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-e190bb81-3126-4f46-8037-9ca69f318fab",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 0,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    },
+    "b89afa4377325220": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-56d05959-57f3-4966-b141-54e9faac4edb",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "b8a065be5cd485da": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-8e23c2a8-223b-459f-93b7-eb5d0cab2041",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 90,
+      "total_deletions": 10,
+      "accepted_lines": 78,
+      "overriden_lines": 0
+    },
+    "baf18154194eee63": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_269ef444cffecfrtd7ZddYxYBW-fcc2ffc7-11dd-420c-b2de-adbcfe74fe44",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 82,
+      "overriden_lines": 0
+    },
+    "bd42e733c584c5e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-bba2ea5b-d03b-4fe7-8494-59ee8b858298",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "bd981d81b9371593": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-6ca92bc5-d052-444a-b05e-9dcfa3510d28",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    },
+    "c058cf28dde18bc4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-7e06d9d7-0541-46ad-b39b-8ceb2bf0c3b1",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    },
+    "c19a9aa65683eb1a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-cd77871f-8521-4f4f-838c-afd1d83a414f",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "c478b8a7c4858766": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-b8c6fea4-191b-4902-b8fb-6ff492f6c180",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 42,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "c6a4e07007e0f3b5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-401414d9-2217-4340-a0a5-538d47d62502",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "c70fa71ddb268666": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-a0738347-828d-41e0-bf6e-89f0e0176e74",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "c89c761f9be14487": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-dfdea8c3-d0ef-40a2-b088-b8112af4fa2f",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "cb121811d678a74e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-d6d3d26a-d9f8-439c-910e-e3fe5f07c775",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 2,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    },
+    "cb5845f09f1b463b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-b3d77c47-2e95-4be9-bc7e-f81348dd47b0",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    },
+    "ccdefaa876782571": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-87504c3b-8645-46e5-9d61-0b13fab8f865",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "cdfae00fc97bc61a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-c0a0ccb9-32cb-492f-92e9-833f92a3a17d",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "d171ce1ae0e7f1ed": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-39a0d1a5-b4d8-49a4-bb5c-923cd356e327",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 0,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    },
+    "d622bd05a7027fa1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-d402dcaf-9a84-4c79-adfd-06ce91b16482",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "daea9a71f05cb255": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26a843a41ffekYEGzDwSiU6asv-98652e2e-2594-4e51-b56b-16dda9151472",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "dc3865ef8f0009b1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-9700162b-58e0-4f4d-8cc6-b83d1df522e3",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 50,
+      "total_deletions": 1,
+      "accepted_lines": 50,
+      "overriden_lines": 0
+    },
+    "dd6b7727ef6e3045": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-5bb9b3bc-1fee-45c8-8c9e-621046ebbdf3",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 47,
+      "overriden_lines": 0
+    },
+    "dfe588888365d192": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-4c1dda2f-36e4-4bd0-bcec-f064aa3da396",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 10,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    },
+    "e01b8bba819182e5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-52c28190-400a-4414-81f5-dc368969af79",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "e0a63fe38acd0ebb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-a8f975c4-40b9-44a8-9166-3e369b2f0af8",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 78,
+      "overriden_lines": 0
+    },
+    "e3b5aa45996ff488": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-2cad6c66-7665-46fa-9efb-576bd60607b3",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 0,
+      "accepted_lines": 20,
+      "overriden_lines": 0
+    },
+    "e93dc499869ccbb4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-4e314c7e-f1e2-4a7d-a233-f933a6c7b835",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 44,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "eb51bdd864790072": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-aa81e0e5-00bc-4fc1-94c7-e0c50ba0fe7a",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "ed8e7db94e853d66": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-51f0bb1e-def3-4a5c-b34c-5987be8206ff",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "eddc121e970816f8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-b14aa63d-e306-48cd-95ed-e5088cfb4254",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 5,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    },
+    "ee20f28b68bdbbcb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-e27a5cee-4052-46f1-bf1d-e091d1acc9a0",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "ee6cec1e62e285b6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-0935dcf1-debc-4837-98ee-6d1ec1ad9323",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "ef76db0576af032a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-87dd9382-8b03-4783-ad6a-0bf5a4a971d9",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 65,
+      "overriden_lines": 0
+    },
+    "f292331eae1525f7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_26b849a95ffeBMJDpbi9njlKYK-26f317e0-d22e-4cd7-80a3-4648372ecf2a",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "fab648e2649a27f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-640d0c9d-d257-424c-9c55-f8f387c45611",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "fdc3f7b9d6ee556f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "opencode-transcript-ses_266560c1dffegACUKeqN2Mrh56-523887cc-fcd8-496d-bf31-f6e1e2a2610d",
+        "model": "unknown"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 13,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
