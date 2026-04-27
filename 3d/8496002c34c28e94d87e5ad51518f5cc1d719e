@@ -1,0 +1,23 @@
+src/commands/hooks/push_hooks.rs
+  9a5e538dbb654b58 71-74,78,90-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.5",
+  "base_commit_sha": "3d8496002c34c28e94d87e5ad51518f5cc1d719e",
+  "prompts": {
+    "9a5e538dbb654b58": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fa35044e-2cf2-4feb-91a3-9193f01045fc",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "hanma",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 1,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    }
+  }
+}
